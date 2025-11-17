@@ -7,6 +7,7 @@ Suite Teardown  Close Browser
 When counter has a nonzero value and it is reset the value becomes zero
     Go To  ${HOME_URL}
     Title Should Be  Laskuri
+    Input Text  value  0
     Click Button  Paina
     Click Button  Paina
     Click Button  Paina
